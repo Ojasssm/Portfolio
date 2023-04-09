@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color1: rgb(205, 22, 22);
+    --color2: rgb(188, 96, 112);
+    --width1: 79vw;
+    --width2: 8vw;
+    --font1: "Baloo Bhaina 2", cursive;
+    --font2: "Roboto", sans-serif;
+}
+.nav{
+    /* position: sticky;
+    top: 0; */
+    height: 7vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-family: var(--font1);
+    justify-content: space-between;
+    z-index: 3;
+}
+.a{
+    color: black;
+    text-decoration: none;
+    margin: 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    /* font-weight: bold; */
+}
+.a:hover{
+    color: var(--color2);
+}
+.hr{
+    width: var(--width1);
+    margin: auto;
+}
